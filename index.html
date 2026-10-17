@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Geo Installations | Linktree</title>
+  <meta name="description" content="Geotechnical Instrumentation | "With Precision Installation Comes Reliable Results" – Geo Installations" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;600&display=swap" rel="stylesheet" />
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Raleway', sans-serif;
+      background-color: #f9fafb;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      padding: 40px 20px;
+      color: #153b5c;
+    }
+
+    .container {
+      width: 100%;
+      max-width: 320px;
+      text-align: center;
+    }
+
+    .logo {
+      max-width: 260px;
+      width: 100%;
+      height: auto;
+      margin: 0 auto 28px;
+      display: block;
+    }
+
+    .tagline {
+      font-size: 14px;
+      font-weight: 500;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      color: #6b7c8f;
+      line-height: 1.5;
+      margin-bottom: 36px;
+    }
+
+    .tagline strong {
+      display: block;
+      font-weight: 600;
+      color: #153b5c;
+      margin-top: 2px;
+    }
+
+    .links {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 14px;
+    }
+
+    a.btn {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 224px;
+      height: 50px;
+      background-color: #153b5c;
+      color: #ffffff;
+      text-decoration: none;
+      font-size: 18px;
+      font-weight: 500;
+      font-family: 'Raleway', sans-serif;
+      border: none;
+      border-radius: 0;
+      transition: background-color 0.2s ease, transform 0.15s ease;
+      letter-spacing: 0.02em;
+    }
+
+    a.btn:hover {
+      background-color: #0f2d47;
+      transform: translateY(-1px);
+    }
+
+    a.btn:active {
+      transform: translateY(0);
+    }
+
+    /* Fallback if logo fails to load */
+    .logo-fallback {
+      display: none;
+      font-size: 28px;
+      font-weight: 600;
+      color: #153b5c;
+      margin-bottom: 20px;
+      letter-spacing: -0.5px;
+    }
+
+    @media (max-width: 360px) {
+      a.btn {
+        width: 100%;
+        max-width: 280px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <!-- Logo -->
+    <img 
+      src="logo.png" 
+      alt="Geo Installations" 
+      class="logo"
+      onerror="this.style.display='none'; document.querySelector('.logo-fallback').style.display='block';"
+    />
+    <div class="logo-fallback">GEO INSTALLATIONS</div>
+
+    <!-- Tagline matching reference style -->
+    <p class="tagline">
+      Geotechnical Instrumentation<br>
+      <strong>"With Precision Installation Comes Reliable Results"</strong>
+    </p>
+
+    <!-- Buttons – order matches agreed configuration, Instagram removed -->
+    <div class="links">
+      <!-- 1. LinkedIn -->
+      <a class="btn" href="https://www.linkedin.com/company/geo-istallations-pty-ltd/home/" target="_blank" rel="noopener noreferrer">
+        LinkedIn
+      </a>
+
+      <!-- 2. WhatsApp -->
+      <a class="btn" href="https://wa.me/27834613732" target="_blank" rel="noopener noreferrer">
+        WhatsApp Us
+      </a>
+
+      <!-- 3. Website -->
+      <a class="btn" href="https://www.geoinstallations.co.za/" target="_blank" rel="noopener noreferrer">
+        Visit Our Website
+      </a>
+
+      <!-- 4. Visit Our Office -->
+      <a class="btn" href="https://maps.app.goo.gl/sw8MkuLf8hFjymjM6" target="_blank" rel="noopener noreferrer">
+        Visit Our Office
+      </a>
+
+      <!-- 5. Book a Coffee! 
+           Currently points to a generic Microsoft Bookings landing. 
+           Replace the href with your real Geo Installations Microsoft Bookings page URL when ready. -->
+      <a class="btn" href="https://outlook.office.com/bookwithme/" target="_blank" rel="noopener noreferrer">
+        Book a Coffee!
+      </a>
+    </div>
+  </div>
+</body>
+</html>
